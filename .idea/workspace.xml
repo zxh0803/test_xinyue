@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb57afc6-5b21-4b37-849a-627db7373f0b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/test_add_groups_page.py" afterPath="$PROJECT_DIR$/case/test_add_groups_page.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/test_add_units_page.py" afterPath="$PROJECT_DIR$/case/test_add_units_page.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/test_add_users_page.py" afterPath="$PROJECT_DIR$/case/test_add_users_page.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/test_login_page.py" afterPath="$PROJECT_DIR$/case/test_login_page.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/add_groups_page.py" afterPath="$PROJECT_DIR$/page/add_groups_page.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/add_users_page.py" afterPath="$PROJECT_DIR$/page/add_users_page.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/result.html" afterPath="$PROJECT_DIR$/report/result.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run_all_case.py" afterPath="$PROJECT_DIR$/run_all_case.py" />
     </list>
     <ignored path="autotest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,10 +28,10 @@
     <SUITE FILE_PATH="coverage/autotest$validation.coverage" NAME="validation Coverage Results" MODIFIED="1510218542082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
     <SUITE FILE_PATH="coverage/autotest$Unittests_in_1.coverage" NAME="Unittests in 1 Coverage Results" MODIFIED="1509691710559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autotest$add_drivers_page.coverage" NAME="add_drivers_page Coverage Results" MODIFIED="1510294361801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
-    <SUITE FILE_PATH="coverage/autotest$run_all_case.coverage" NAME="run_all_case Coverage Results" MODIFIED="1510555939660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autotest$run_all_case.coverage" NAME="run_all_case Coverage Results" MODIFIED="1510558297346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autotest$Unittests_in_testmanagement.coverage" NAME="Unittests in testmanagement Coverage Results" MODIFIED="1510207086288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/autotest$Unittests_in_testlogin.coverage" NAME="Unittests in testlogin Coverage Results" MODIFIED="1510211492484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/autotest$Unittests_in_test_login_page.coverage" NAME="Unittests in test_login_page Coverage Results" MODIFIED="1510300068868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/autotest$Unittests_in_test_login_page.coverage" NAME="Unittests in test_login_page Coverage Results" MODIFIED="1510557999232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/autotest$Unittests_in_test_add_units_page.coverage" NAME="Unittests in test_add_units_page Coverage Results" MODIFIED="1510553036063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/autotest$1.coverage" NAME="1 Coverage Results" MODIFIED="1509698100393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autotest$add_alert_page.coverage" NAME="add_alert_page Coverage Results" MODIFIED="1510297196915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
@@ -57,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/case/test_login_page.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+              <caret line="42" column="79" selection-start-line="42" selection-start-column="79" selection-end-line="42" selection-end-column="79" />
               <folding>
                 <element signature="e#15#45#0" expanded="true" />
               </folding>
@@ -65,14 +67,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_add_users_page.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_add_users_page.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/case/test_add_users_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7066521">
-              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
               <folding>
                 <element signature="e#15#45#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_drivers_page.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/add_drivers_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="63" column="53" selection-start-line="41" selection-start-column="0" selection-end-line="63" selection-end-column="53" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,7 +93,7 @@
         <entry file="file://$PROJECT_DIR$/case/test_add_units_page.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="e#15#45#0" expanded="true" />
               </folding>
@@ -101,35 +113,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="management_page.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page/management_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="run_all_case.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run_all_case.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
               <folding>
                 <element signature="e#15#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="104" column="21" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
-              <folding>
-                <element signature="e#15#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -139,17 +129,37 @@
         <entry file="file://$PROJECT_DIR$/page/add_units_page.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+              <caret line="41" column="42" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add_users_page.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page/add_users_page.py">
+      <file leaf-file-name="add_owners_page.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/add_owners_page.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="60" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
+              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_groups_page.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/add_groups_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_users_page.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/page/add_users_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.08833151">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -185,19 +195,19 @@
         <option value="$PROJECT_DIR$/page/validation.py" />
         <option value="$PROJECT_DIR$/page/management_page.py" />
         <option value="$PROJECT_DIR$/page/add_units_page.py" />
-        <option value="$PROJECT_DIR$/page/add_groups_page.py" />
         <option value="$PROJECT_DIR$/page/add_owners_page.py" />
         <option value="$PROJECT_DIR$/page/add_drivers_page.py" />
         <option value="$PROJECT_DIR$/page/add_alert_page.py" />
         <option value="$PROJECT_DIR$/page/login_page.py" />
         <option value="$PROJECT_DIR$/aaa.py" />
         <option value="$PROJECT_DIR$/common/base.py" />
-        <option value="$PROJECT_DIR$/case/test_login_page.py" />
-        <option value="$PROJECT_DIR$/page/add_users_page.py" />
-        <option value="$PROJECT_DIR$/run_all_case.py" />
         <option value="$PROJECT_DIR$/case/test_add_groups_page.py" />
         <option value="$PROJECT_DIR$/case/test_add_units_page.py" />
         <option value="$PROJECT_DIR$/case/test_add_users_page.py" />
+        <option value="$PROJECT_DIR$/case/test_login_page.py" />
+        <option value="$PROJECT_DIR$/run_all_case.py" />
+        <option value="$PROJECT_DIR$/page/add_groups_page.py" />
+        <option value="$PROJECT_DIR$/page/add_users_page.py" />
       </list>
     </option>
   </component>
@@ -207,8 +217,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="88" />
-    <option name="y" value="38" />
+    <option name="x" value="262" />
+    <option name="y" value="73" />
     <option name="width" value="1932" />
     <option name="height" value="1056" />
   </component>
@@ -319,24 +329,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.run_all_case">
-    <configuration default="false" name="base" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="autotest" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/base.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="Unittests in test_add_users_page" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -422,6 +414,29 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_all_case.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in test_login_page" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="autotest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/test_login_page.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -618,19 +633,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.base" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_add_users_page" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_add_units_page" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_add_groups_page" />
-      <item index="4" class="java.lang.String" itemvalue="Python.run_all_case" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_add_users_page" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_add_units_page" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_add_groups_page" />
+      <item index="3" class="java.lang.String" itemvalue="Python.run_all_case" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_login_page" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.run_all_case" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_add_groups_page" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_add_units_page" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_add_users_page" />
-        <item index="4" class="java.lang.String" itemvalue="Python.base" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_login_page" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_add_groups_page" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_add_units_page" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_add_users_page" />
       </list>
     </recent_temporary>
   </component>
@@ -648,12 +663,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_add_groups_page - 2017.11.13 at 14h 13m 51s.xml">
-      <configuration name="Unittests in test_add_groups_page" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_add_groups_page - 2017.11.13 at 14h 14m 42s.xml">
-      <configuration name="Unittests in test_add_groups_page" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_add_groups_page - 2017.11.13 at 14h 15m 32s.xml">
       <configuration name="Unittests in test_add_groups_page" configurationId="tests" />
     </history-entry>
@@ -678,12 +687,18 @@
     <history-entry file="Unittests_in_test_add_users_page - 2017.11.13 at 13h 52m 18s.xml">
       <configuration name="Unittests in test_add_users_page" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_login_page - 2017.11.13 at 15h 26m 26s.xml">
+      <configuration name="Unittests in test_login_page" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_login_page - 2017.11.13 at 15h 27m 33s.xml">
+      <configuration name="Unittests in test_login_page" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="88" y="38" width="1932" height="1056" extended-state="1" />
-    <editor active="true" />
+    <frame x="262" y="73" width="1932" height="1056" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18893528" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18893528" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3012685" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -971,27 +986,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/add_drivers_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="53" selection-start-line="41" selection-start-column="0" selection-end-line="63" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/add_groups_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/add_owners_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/HTMLTestRunner_bak.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="16.290077">
@@ -1034,37 +1028,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/add_units_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/add_users_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="60" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/management_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run_all_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding>
-            <element signature="e#15#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1081,7 +1049,53 @@
     <entry file="file://$PROJECT_DIR$/case/test_login_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <caret line="42" column="79" selection-start-line="42" selection-start-column="79" selection-end-line="42" selection-end-column="79" />
+          <folding>
+            <element signature="e#15#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_all_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="e#15#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/add_groups_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_add_users_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+          <folding>
+            <element signature="e#15#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/add_drivers_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="53" selection-start-line="41" selection-start-column="0" selection-end-line="63" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_add_units_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="e#15#45#0" expanded="true" />
           </folding>
@@ -1098,23 +1112,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case/test_add_units_page.py">
+    <entry file="file://$PROJECT_DIR$/page/add_owners_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-          <folding>
-            <element signature="e#15#45#0" expanded="true" />
-          </folding>
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case/test_add_users_page.py">
+    <entry file="file://$PROJECT_DIR$/page/add_units_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7066521">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-          <folding>
-            <element signature="e#15#45#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="42" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/add_users_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08833151">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>

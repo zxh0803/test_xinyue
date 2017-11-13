@@ -40,7 +40,7 @@ class Test_Login_Page(unittest.TestCase):
         self.login_driver.input_pwd("789123")
         self.login_driver.login_click()
         time.sleep(5)
-        r = self.login_driver.is_user_pwd_wrong("User name or password is wrong111") #为了演示效果，加上111使其断言失败
+        r = self.login_driver.is_user_pwd_wrong("User name or password is wrong") #为了演示效果，加上111使其断言失败
         self.assertTrue(r,msg=u"输入错误的密码")
 
 if __name__ == '__main__':

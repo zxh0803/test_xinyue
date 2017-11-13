@@ -6,7 +6,7 @@ import time
 
 class Add_Groups_Page(Base):
 
-    groups_new_loc = ("xpath",".//*[@id='button-2101-btnInnerEl']")
+    groups_new_loc = ("xpath",".//*[@id='button-2100-btnInnerEl']")
     groups_name_loc = ("xpath",".//*[@id='textfield-1788-inputEl']")
     groups_save_loc = ("xpath",".//*[@id='button-1815-btnInnerEl']")
     groups_name_text_loc = ("xpath",".//*[starts-with(@id,'tableview-1782-record')]/tbody/tr/td[1]/div")

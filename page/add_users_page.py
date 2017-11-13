@@ -8,7 +8,7 @@ import time
 class Add_Users_Page(Base):
 
 
-    users_new_loc = ("id","button-2080-btnInnerEl")
+    users_new_loc = ("id","button-2079-btnInnerEl")
     users_name_loc = ("id","textfield-1638-inputEl")
     users_pwd_loc = ("id","textfield-1639-inputEl")
     users_confirm_pwd_loc = ("id","textfield-1640-inputEl")

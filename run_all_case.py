@@ -6,6 +6,7 @@ from common.send_mail import sendmail
 def all_case():
 
     case_path = os.path.join(os.path.dirname(os.path.realpath(__file__)),"case")
+    print case_path
     discover = unittest.defaultTestLoader.discover(case_path,pattern='test*.py',top_level_dir=None)
     return discover
 
