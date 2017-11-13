@@ -28,6 +28,7 @@ class Test_Add_Users(unittest.TestCase):
         cls.driver.quit()
 
     def test_add_user01(self):
+        time.sleep(10)
         self.users_driver.click_users_new()
         self.users_driver.input_name_new("zxh20171113")
         self.users_driver.input_pwd_new("123456")

@@ -28,6 +28,7 @@ class Test_Add_Groups(unittest.TestCase):
         cls.driver.quit()
 
     def test_add_groups01(self):
+        time.sleep(10)
         self.groups_driver.click_groups_new()
         self.groups_driver.input_group_name("group20171113")
         time.sleep(2)

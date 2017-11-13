@@ -28,6 +28,7 @@ class Test_Add_Units(unittest.TestCase):
         cls.driver.quit()
 
     def test_add_user01(self):
+        time.sleep(10)
         self.units_driver.click_units_new()
         self.units_driver.input_unit_name("unit20171113")
         self.units_driver.input_IMEI("201711131115001")
